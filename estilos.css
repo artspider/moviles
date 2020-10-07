@@ -238,16 +238,17 @@ p.search-text2 {
 input {
   margin-top: 1.5rem;
   margin-left: 2rem;
-  width: 83%;
+  width: 87%;
   height: 2rem;
   border-radius: 25px;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  padding-left: 42px;
 }
 
 .search--input {
   position: relative;
-  width: 85%;
+  width: 83%;
 }
 
 .svg--search {
