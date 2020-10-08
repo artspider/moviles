@@ -123,9 +123,10 @@ table {
   border-spacing: 0;
 }
 
+html,
 body {
   display: flex;
-  height: 100vh;
+  height: 100%;
   flex-direction: column;
 }
 
@@ -147,8 +148,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  /* border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px; */
 }
 
 header {
@@ -249,6 +250,10 @@ input {
 .search--input {
   position: relative;
   width: 83%;
+}
+
+input:focus {
+  outline: 0;
 }
 
 .svg--search {
